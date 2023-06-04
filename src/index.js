@@ -20,6 +20,7 @@ function fetchAndRenderBreeds() {
         Notiflix.Notify.failure(
         'Oops! Something went wrong! Try reloading the page!'
         );
+        select.classList.add('hidden-select');
     })
     .finally(() => {
         loader.classList.add('invisible');

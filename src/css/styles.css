@@ -27,3 +27,6 @@ body {
   max-width: 100%;
 }
 
+.hidden-select {
+  display: none;
+}
